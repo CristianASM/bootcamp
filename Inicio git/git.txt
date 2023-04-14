@@ -4,7 +4,8 @@ Con comando "ls" muestra las carpetas y archivos.
 Con comando "mkdir" se crea una carpeta.
 Con comando "touch" crea un archivo y se le puede añadir su extension, ej: texto.txt.
 Con comando "git init" para iniciar un repositorio local.
-Con comando "git remote add origin (enlace del repositorio remoto github)" para conectar el repositorio local con el remoto. 
+Con comando "git remote add origin (enlace del repositorio remoto github)" para conectar el repositorio local con el remoto.
+Con comando "git commit -m" se coloca un comentario sobre los cambios. 
 Con comando "git push" sube el archivo local al remoto.
 Con comando "git pull" baja los archivos remotos al local.
 Con comando "git fetch" muestra los cambios que se hicieron en el repositorio remoto.
