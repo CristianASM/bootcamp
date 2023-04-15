@@ -1,15 +1,26 @@
-Practica de git 
-Con comando "cd" se viaja entre carpetas.
-Con comando "ls" muestra las carpetas y archivos.
-Con comando "mkdir" se crea una carpeta.
-Con comando "touch" crea un archivo y se le puede añadir su extension, ej: texto.txt.
-Con comando "git init" para iniciar un repositorio local.
-Con comando "git remote add origin (enlace del repositorio remoto github)" para conectar el repositorio local con el remoto.
-Con comando "git commit -m" se coloca un comentario sobre los cambios. 
-Con comando "git push" sube el archivo local al remoto.
-Con comando "git pull" baja los archivos remotos al local.
-Con comando "git fetch" muestra los cambios que se hicieron en el repositorio remoto.
-Con comando "git branch" muestra la branch en la que uno se encuentra y tambien se puede usar para crear una rama nueva.
-Con comando "git switch" se cambia de rama.
-Esto son los comandos basicos para iniciar un repositorio local y sincronizarlos con un remoto
+		Identificacion
+	git config --global user.name "Cristian Soto"
+	git config --global user.email cristiansoto.m10@gmail.com
+	git config --list : para ver todas las configuraciones guardadas.
 
+
+		Comienzo de git 
+	Con comando "cd" se viaja entre carpetas.
+	Con comando "ls" muestra las carpetas y archivos.
+	Con comando "mkdir" se crea una carpeta.
+	Con comando "touch" crea un archivo y se le puede añadir su extension, ej: texto.txt.
+	Con comando "git init" para iniciar un repositorio local.
+	Con comando "git remote add origin (enlace del repositorio remoto github)" para conectar el repositorio local con el remoto.
+	Con comando "git commit -m" se coloca un comentario sobre los cambios. 
+	Con comando "git push" sube el archivo local al remoto.
+	Con comando "git pull" baja los archivos remotos al local.
+	Con comando "git fetch" muestra los cambios que se hicieron en el repositorio remoto.
+	Con comando "git branch" muestra la branch en la que uno se encuentra y tambien se puede usar para crear una rama nueva.
+	Con comando "git switch" se cambia de rama.
+	Con comando "git status" muestra el estado en el que se encuentran tus archivos.
+	Con comando "git log" muestra los cambios que se han hecho. 
+	Esto son los comandos basicos para iniciar un repositorio local y sincronizarlos con un remoto.
+
+		
+		Clonar un repositorio
+	Con comando "git clone [Url]" puedes clonar un repositorio usando HTTPS o SSH. Ej: $git clone https://github.com/CristianASM/???.git
