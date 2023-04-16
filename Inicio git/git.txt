@@ -24,7 +24,8 @@
 
 	Con comando [git diff] muestra los cambios exactos que se hicieron en un archivo.
 	Con comando [git mv (nombre-archivo nuevo-nombre)] cambia el nombre de un archivo o carpeta.
-	Con [git log --pretty=format:"%h %an %s"] esto muestra el log mas ordenado .. agregandole {--graph} muestra los merge  
+	Con [git log --pretty=format:"%h %an %s"] esto muestra el log mas ordenado .. agregandole {--graph} muestra los merge.
+	Con comando [git rm (nombre del archivo)] eliminas un archivo.  
 
 		
 		Clonar un repositorio
