@@ -1,0 +1,7 @@
+Ejercicio 1:¿Cómo podrías pausar el trabajo en el commit actual para dedicarte a trabajar en master?
+
+Solucion: Para solucionar este problema se puede usar el comando "git stash" este comando hace un guardado rapido sin hacer commmit, luego para cambiar de rama se usa el comando "git switch (nombre-rama)". Para eliminar un archivo se usa el comando "git rm (nombre-archivo)", vuelves a la rama donde estabas. Para recuperar el trabahjo guardado donde estabas se usa el comando "git stash list" y "git stash apply (nombre-stash)". 
+
+Ejercicio 2:¿Cómo podrías subir los cambios a producción si es la rama master la que se usa para producción?
+
+Solucion: Primero asegurarse en que rama estas con comando "git branch", luego cambiarse a rama donde se quieren fusionar los cambios con "git switch master"(en este caso es a la rama master), lo siguiente seria ideal hacer un "git pull" para actualizar la rama y evitar posibles confilctos. Estando en la rama master usar comando "git merge front-react", este comando fusionara la rama front-react a la master. 

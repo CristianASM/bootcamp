@@ -27,7 +27,7 @@
 	Con comando [git mv (nombre-archivo nuevo-nombre)] cambia el nombre de un archivo o carpeta.
 	Con [git log --pretty=format:"%h %an %s"] esto muestra el log mas ordenado .. agregandole {--graph} muestra los merge.
 	Con comando [git rm (nombre del archivo)] eliminas un archivo.
-	Con [git commit --amend] deshace el commit anterior, para agregar el commit nuevo o colocarlo nuevamente. Se usa en caso de olvidar subir un archivo en el anterior commit.
+	Con [git commit --amend] deshace el commit anterior, para agregar el commit nuevo o actualizarlo nuevamente. Se usa en caso de olvidar subir un archivo en el anterior commit.
 	Con [git reset HEAD (archivo)] se saca un archivo del estado de preparacion, en caso de que hagas un "git add .".
 
 
