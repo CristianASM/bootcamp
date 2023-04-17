@@ -22,11 +22,30 @@
 	Esto son los comandos basicos para iniciar un repositorio local y sincronizarlos con un remoto.
 
 
+		Para deshacer o visualizar cambios
 	Con comando [git diff] muestra los cambios exactos que se hicieron en un archivo.
 	Con comando [git mv (nombre-archivo nuevo-nombre)] cambia el nombre de un archivo o carpeta.
 	Con [git log --pretty=format:"%h %an %s"] esto muestra el log mas ordenado .. agregandole {--graph} muestra los merge.
-	Con comando [git rm (nombre del archivo)] eliminas un archivo.  
+	Con comando [git rm (nombre del archivo)] eliminas un archivo.
+	Con [git commit --amend] deshace el commit anterior, para agregar el commit nuevo o colocarlo nuevamente. Se usa en caso de olvidar subir un archivo en el anterior commit.
+	Con [git reset HEAD (archivo)] se saca un archivo del estado de preparacion, en caso de que hagas un "git add .".
 
-		
-		Clonar un repositorio
+
+		Remotos
+	Con comando [git remote] muestra los remotos que tienes configurados.
+	Con [git remote -v] muestra las URls que estan asociadas.
+	Con comando [git remote show (nombre-remoto o origin)] muestra informacion de un remoto en particular.
+	Con comando [git remote rename (nombre-nuevo) (nuevo-nombre)] cambia el nombre de referencia de un remoto.
+	Con comando [git remote rm (nombre-remoto)] elimina un remoto.
+	+      	Clonar un repositorio
 	Con comando [git clone (Url)] puedes clonar un repositorio usando HTTPS o SSH. Ej: $git clone https://github.com/CristianASM/???.git
+
+
+		Etiquetas = se usan para etiquetar puntos especificos e importantes
+	Con comando [git tag] muestra la lista de etiquetas.
+	Con comando [git tag -a (nombre-tag) -m "(commit)"] añade un tag con commit.
+	Con comando [git tag (nombre-tag)-lw] crea una etiqeuta ligera.
+	Con comando [git tag -a (nombre-tag) (inicio-hash<6*>)] coloca un tag tardio a un commit ya hecho.  
+	
+	
+	
