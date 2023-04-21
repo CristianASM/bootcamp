@@ -1,0 +1,58 @@
+h1{
+    color: white;
+    background-color: black;
+    font-size: 66.66px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    margin: 0;
+    padding: 60px;
+    padding-bottom: 7.5%;
+}
+h2{
+    color: black;
+    background-color: white;
+    font-size: 197.33px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: -220px;
+    border-right: 4px solid black;
+    border-left: 4px solid black; 
+}
+h3{
+    color: white;
+    background-color: black;
+    font-size: 217.33px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    padding: 10%;
+}
+p{
+    color: black;
+    background-color: white;
+    font-size: 48px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin-top: -250px;
+    margin-bottom: -96px;
+    border-right: 4px solid black;
+    border-left: 4px solid black; 
+}
+p strong{
+    font-size: 60px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+h5{
+    color: white;
+    background-color: black;
+    font-size: 58.66px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 4%; 
+}
+.container{
+    text-align: center;
+    margin: 50px;
+    width: 1500px;
+}

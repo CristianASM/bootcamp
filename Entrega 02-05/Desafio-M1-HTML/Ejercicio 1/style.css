@@ -1,0 +1,49 @@
+body {
+    background-color: #edf7ff;
+    border-top: #8a9af1 solid 10px;
+    margin: 0;
+}
+h1, h2, h3{
+    color: #0a2ff1;
+}
+h1 {
+    font-size: 117.33px;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 52px;
+    font-family: 'Asap';
+    font-weight: 400;
+    margin-top: -40px;
+    margin-bottom: 4.5%;
+}
+article p{
+    font-size: 33.33px;
+    font-family: 'Asap';
+    font-weight: 400;
+    color: #04146c;
+}
+h3{
+    font-size: 48px;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+}
+ul li{
+    font-size: 33.33px;
+    font-family: 'Asap';
+    font-weight: bold;
+    color: #04146c;
+    margin-bottom: 20px;
+}
+footer p{
+    font-size: 198.66px;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    color: #8a9af1;
+    margin-top: 60px;
+}
+.container{
+    margin-left: 120px;
+}
