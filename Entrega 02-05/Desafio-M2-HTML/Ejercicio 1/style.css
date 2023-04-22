@@ -1,0 +1,23 @@
+h1{
+    font-family: 'Poppins';
+    font-size: 78.66px;
+    color: #0a2ff1;
+    font-weight: 900;
+}
+h1 strong{
+    background-color: #3ffff3;
+}
+p{
+    font-family: 'Poppins';
+    font-size: 30.66px;
+    color: #0a2ff1;
+    font-weight: 500;
+}
+.img-sobre{
+    width: 410px;
+    background-image: url(img/fondo.JPG);
+}
+.container{
+    transform: scale(70%);  /*lo hice para que se visualizara mejor al revisar*/
+    transform-origin: 0 0;
+}

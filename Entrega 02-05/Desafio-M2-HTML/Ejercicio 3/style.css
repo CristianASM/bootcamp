@@ -1,0 +1,39 @@
+h1{
+    font-family: 'Source Sans 3';
+    font-weight: 400;
+    font-size: 38.66px;
+    background-color: #04146c;
+    color: white;
+    margin: 0;
+}
+h2{
+    font-family: 'Source Sans 3';
+    font-weight: 900;
+    font-size: 88px;
+    color: #04146c;
+}
+h3{
+    font-family: 'Source Sans 3';
+    font-weight: 400;
+    font-size: 26.66px;
+    color: #04146c;
+}
+h3 strong{
+    font-weight: 700; /*esto lo hace el <strong>, pero prefiero colocarlo. 700 es lo mismo que colocar bold*/
+}
+p{
+    font-family: 'Source Sans 3';
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+    background-color:  #edf7ff;
+}
+img{
+    width: 600px;
+}
+main{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: #04146c solid 2px;
+}
