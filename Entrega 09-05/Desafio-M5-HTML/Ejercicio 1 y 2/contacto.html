@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+
+<body class="container">
+    <div class="hed-nav">
+        <img class="logo" src="img/M5-logo-azul.svg" alt="logo">
+        <nav>
+            <a href="index.html">HOME</a>
+            <a class="active" href="contacto.html">CONTACTO</a>
+        </nav>
+    </div>
+    <div class="flex">
+        <h1>¿Querés que nos contactemos con vos?</h1>
+        <p>Dejanos tu consulta:</p>
+        <form class="flex">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombres Apellidos" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="example@mail.com" required>
+
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario" placeholder="Dejanos tu comentario" required></textarea>
+            <div class="button">
+                <button id="reset" type="reset">Resetear</button>
+                <button id="submit" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

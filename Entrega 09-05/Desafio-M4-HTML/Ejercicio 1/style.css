@@ -1,0 +1,45 @@
+h1{
+    font-family: 'Mulish';
+    font-size: 32.64px;
+    font-weight: 700;
+    color: #04146c;
+}
+input{
+    font-family: 'Mulish';
+    font-size: 22.66px;
+    font-weight: 400;
+    color: #414166;
+}
+button{
+    font-family: 'Mulish';
+    font-size: 22.66px;
+    font-weight: 600;
+    color: white;
+    background-color: #15163d;
+}
+.ib{
+    width: 500px;
+    height: 50px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.fondo-form{
+    width: 50%;
+    background-image: url(img/fondo-form.png);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+}
+body{
+    background-image: url(img/fondo-body.png);
+    display: flex;
+    justify-content: center;
+}

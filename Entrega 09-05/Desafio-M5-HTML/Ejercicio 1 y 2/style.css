@@ -1,0 +1,41 @@
+a{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+    text-decoration: none;
+    padding: 40px;
+}
+a:active, .home{
+    font-weight: 700;
+}
+h1{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 96px;
+    color: #0a2ff1;
+}
+p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 34.66px;
+    color: #04146c;
+}
+.logo{
+    width: 5%;
+}
+.img-fondo{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.hed-nav{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+}
+body{
+    text-align: center;
+    margin: 0;
+    border-top: 35px solid #0a2ff1;
+}

@@ -1,0 +1,34 @@
+h1{
+    font-family: 'Mulish';
+    font-size: 37.48px;
+    font-weight: 900;
+    color: #04146c;
+}
+h2{
+    font-family: 'Mulish';
+    font-size: 24.56px;
+    font-weight: 700;
+    color: #0a2ff1;
+}
+p{
+    font-family: 'Mulish';
+    font-size: 19.97px;
+    font-weight: 400;
+    color: #04146c;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 70px;
+}
+img{
+    width: 55px;
+    height: 55px; /*coloque esto para evitar que se distorsionara*/
+    margin-right: 15px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.container{
+    padding: 60px;  /*y esto para que no se viera tan pegado al borde*/
+}

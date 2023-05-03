@@ -1,0 +1,44 @@
+h1{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 24px;
+    color: #04146c;
+}
+input{
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 18.66px;
+    color: #414166;
+    
+}
+button{
+    font-family: 'Mulish';
+    font-weight: 600;
+    background-color: #0a2ff1;
+    font-size: 20px;
+    color: white;
+    
+}
+p{
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 18.66;
+    color: #0a2ff1;
+}
+body{
+    text-align: center;
+}
+.ib{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container{ /*esto solo es para darle el borde*/
+    display: inline-block;
+    border: 1px solid #414166;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}

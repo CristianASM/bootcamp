@@ -1,0 +1,71 @@
+.logo{
+    width: 5%;
+}
+h1{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 45.33px;
+    color: #2c00cc;
+}
+p, label{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30.66px;
+    color: #04146c;
+}
+label{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+#reset, #submit{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    background-color: #f98500;
+    width: 150px;
+    margin: 10px 10px 10px 0;
+    border: none;
+}
+#submit{
+    background-color:  #2c00cc;
+}
+a{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+    text-decoration: none;
+}
+a:active, .active{
+    font-weight: 700;
+}
+.hed-nav{
+    display: flex;
+    align-items: center;
+    border-top: 2px solid gray;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+input, textarea{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+}
+textarea{
+    height: 100px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    padding: 50px;
+}
+

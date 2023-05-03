@@ -1,0 +1,33 @@
+footer{
+    background-color: #3957F1;
+    width: 100%;
+    margin: 0;
+}
+h2{
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 45.33px;
+    color: #0a2ff1;
+}
+p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+}
+.container{
+    display: flex;
+    padding: 85px 0 0 150px;
+}
+.img{
+    width: 60em; 
+    margin-bottom: -70px;
+}
+.logo{
+    margin: 0;
+    width: 12em;
+    padding: 30px 0px 30px 130px;
+}
+body{
+    margin: 0;
+}
