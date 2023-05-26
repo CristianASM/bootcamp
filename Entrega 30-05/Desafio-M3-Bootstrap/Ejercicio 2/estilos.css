@@ -1,0 +1,34 @@
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 82.66px;
+    color: #04146c;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #04146c;
+}
+
+button {
+    background-color: #04146c;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18.66px;
+    color: white;
+    width: 150px;
+    border: none;
+    font-variant: small-caps;
+}
+@media (max-width: 768px) {
+    img{
+        width: 100%;
+    }
+}
+@media (min-width: 769px) {
+    img{
+        width: 80%;
+    }
+}
