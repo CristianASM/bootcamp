@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgb(216, 185, 129);">
+    <div class="container text-center d-flex align-items-center justify-content-center" style="height: 100vh;">
+        <form method="dialog">
+            <h5>Ingrese el % para cada categoria</h5>
+            <div>
+                <div class="mb-3 container d-flex align-items-center justify-content-center" style="width: 200px;">
+                    <input type="text" class="form-control" id="percentNe" placeholder="Gastos necesarios">
+                    <label>%</label>
+                </div>
+                <div class="mb-3 container d-flex align-items-center justify-content-center" style="width: 200px;">
+                    <input type="text" class="form-control" id="percentOp" placeholder="Gastos opcionales">
+                    <label>%</label>
+                </div>
+                <div class="mb-4 container d-flex align-items-center justify-content-center" style="width: 200px;">
+                    <input type="text" class="form-control" id="percentA" placeholder="Ahorro e inversión">
+                    <label>%</label>
+                </div>
+            </div>
+            <h5>Ingrese el Total del presupuesto</h5>
+            <div class="mb-3 container d-flex align-items-center justify-content-center" style="width: 250px;">
+                <input type="text" class="form-control" id="total" placeholder="TOTAL">
+            </div>
+            <button type="submit" class="btn btn-primary" id="calcular">Calcular</button>
+            <h4 id="resultado" class="mt-2"></h4>
+        </form>
+    </div>
+    <script>
+
+        let hTotal = document.getElementById("total")
+        let hCalcular = document.getElementById("calcular")
+        let hResultado = document.getElementById("resultado")
+        let hPercentNe = document.getElementById("percentNe")
+        let hPercentOp = document.getElementById("percentOp")
+        let hPercentA = document.getElementById("percentA")
+
+        function presupuesto() {
+            let total = parseFloat(hTotal.value)
+            let percentNe = parseFloat(hPercentNe.value)
+            let percentOp = parseFloat(hPercentOp.value)
+            let percentA = parseFloat(hPercentA.value)
+            let operacion1 = total * percentNe / 100
+            let operacion2 = total * percentOp / 100
+            let operacion3 = total * percentA / 100
+            let operacion = percentNe + percentOp + percentA
+            if(100 > operacion || 100 < operacion){
+                hResultado.innerText = "No cumple los requisitos"
+            }
+            else{
+                hResultado.innerText = "Para gastos necesarios: " + operacion1 + "\n" +
+                "Para gastos opcionales: " + operacion2 + "\n" +
+                "Para ahorros e inversiones: " + operacion3
+            }
+        }
+
+        hCalcular.addEventListener("click", presupuesto)
+
+    </script>
+</body>
+
+</html>

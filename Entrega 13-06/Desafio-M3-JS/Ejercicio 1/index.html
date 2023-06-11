@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <script>
+
+        let ingresos = [
+            1500, 2500, 84683, 135353, 1535, 4343354, 435453, 78351, 1878, 48483, 35483, 3843
+        ]
+        let egresos = [
+            1500, 2500, 1155, 1533, 5434, 5434543, 4543, 7816, 95634, 9433, 53133, 348133
+        ]
+    
+        let sumaIngresos = 0
+            for(let i=0; i<ingresos.length; i++){
+                sumaIngresos = sumaIngresos + ingresos[i]
+            }
+            console.log(sumaIngresos)
+
+        let sumaEgresos = 0
+            for(let i=0; i<egresos.length; i++){
+                sumaEgresos = sumaEgresos + egresos[i]
+            }
+            console.log(sumaEgresos)
+   
+            
+            if(sumaIngresos > sumaEgresos){
+                console.log("NO hubo pérdidas")
+            }
+            else if (sumaIngresos < sumaEgresos){
+                console.log("SI hubo perdidas")
+            }
+            else{
+                console.log("Ni perdidas ni ganancias")
+            } 
+            
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

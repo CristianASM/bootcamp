@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+
+    <script>
+
+        let datos = [
+            { capital: 150000, plazo: 30, tasa: 0.15 },
+            { capital: 300000, plazo: 180, tasa: 0.1 },
+            { capital: 485000, plazo: 60, tasa: 0.23 }
+        ]
+        console.log(datos)
+
+
+        let intereses = []
+
+        for (let i = 0; i < datos.length; i++) {
+            let lector = datos[i]
+            let operacion = (lector.capital * lector.plazo * lector.tasa) / 100
+            intereses.push({    /* Para solo agregar interes al array: lector.interes = operacion */
+                capital: lector.capital,
+                plazo: lector.plazo,
+                tasa: lector.tasa,
+                interes: operacion
+            })
+        }
+        console.log(intereses)
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

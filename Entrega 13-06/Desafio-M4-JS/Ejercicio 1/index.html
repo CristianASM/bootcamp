@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <script>
+
+        let flujo = [
+            { ingresos: 1, egresos: 1 },
+            { ingresos: 1, egresos: 1 },
+            { ingresos: 1, egresos: 1 },
+            { ingresos: 1, egresos: 1 },
+            { ingresos: 1, egresos: 1 },
+        ]
+
+        function flujoCaja(flujo) {
+            let sumaIngresos = 0
+            let sumaEgresos = 0
+            for (let i = 0; i < flujo.length; i++) {
+                sumaIngresos = sumaIngresos + flujo[i].ingresos
+                sumaEgresos = sumaEgresos + flujo[i].egresos
+            }
+            if (sumaIngresos > sumaEgresos) {
+                return 1
+            }
+            else if (sumaIngresos < sumaEgresos) {
+                return -1
+            }
+            else if (sumaIngresos == sumaEgresos) {
+                return 0
+            }
+        }
+        console.log(flujoCaja(flujo))
+        // Fin del ejercicio 1
+
+        let datos = [
+            {capital: 150000, plazo: 30, tasa: 0.15},
+            {capital: 300000, plazo: 180, tasa: 0.10},
+            {capital: 485000, plazo: 60, tasa: 0.23}
+        ]
+
+        function inversion(datos){
+            let intereses = []
+            for(let i = 0; i < datos.length; i++){
+                let recorrido = datos[i]
+                let interes = (recorrido.capital * recorrido.plazo * recorrido.tasa) / 100
+                intereses.push({
+                    capital: recorrido.capital,
+                    plazo: recorrido.plazo,
+                    tasa: recorrido.tasa,
+                    interés: interes
+                })
+            }
+            return intereses 
+        }
+        console.log(datos) 
+        console.log(inversion(datos))
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
